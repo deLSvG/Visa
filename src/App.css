@@ -1,0 +1,63 @@
+body {
+    background-image: url(./background_img/flag-of-canada_6400x3200_jp0ln.jpeg);
+    background-size: cover;
+}
+
+.container {
+    /* Центрування */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    text-transform: capitalize;
+}
+
+.validation {
+    margin-top: 120px;
+    margin-left: 25px;
+    width: 300px;
+    height: 70px;
+    border-radius: 20px;
+    border: 2px solid black;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.validation:active {
+    transform: scale(0.98);
+}
+
+.validation:focus-within+.ulHTML {
+    border: 2px solid black;
+}
+
+.ulHTML {
+    list-style: none;
+    background-color: rgba(128, 128, 128, 0.454);
+    border-radius: 20px;
+    width: 330px;
+}
+
+.liItem {
+    height: 40px;
+    background-color: rgba(255, 255, 255, 0.538);
+    border: 2px solid black;
+    margin: 10px 15px 10px -15px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.pItem {
+    /* color: brown; */
+    color: black;
+    line-height: 3px;
+    font-weight: 500;
+}
+
+.svgIcon {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+}
